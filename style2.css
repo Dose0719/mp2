@@ -7,7 +7,9 @@
     0% { transform: rotateY(0deg); }
     100% { transform: rotateY(360deg); }
 }
-
+*{
+    scroll-behavior: smooth;
+}
 .spin-3d {
     animation: spin 100s infinite linear;
     transform-origin: center;
@@ -20,6 +22,7 @@
 body{
     margin: 0px 100px!important;
     background-color: rgb(250, 242, 232)!important;
+    scroll-behavior: smooth;
 }
 .Logo{
     width: 200px;
@@ -57,10 +60,18 @@ body{
     border-bottom-right-radius: 150px!important;
     padding: 20px;
     transition: 0.3s;
+    
 }
+.editagain{
+    width: 400px!important;
+    display: flex!important;
+}
+
 .itemshoe{
     padding: 20px;
     border-radius: 50%;
+    text-align: center;
+    background-color: rgba(255, 174, 0, 0.356)!important;
 }
 .card .inner-card .btn-items{
     margin:0 120px;
@@ -75,6 +86,7 @@ body{
 .card:hover{
     background-color: black;
     color: white;
+    
 }
 .hero-btn{
     border-radius: 200px!important;
