@@ -84,7 +84,7 @@ body{
 
 }
 .card:hover{
-    background-color: black;
+    background-color: rgba(255, 174, 0, 0.39) ;
     color: white;
     
 }
@@ -94,7 +94,7 @@ body{
     transition: 0.3s;
 }
 .hero-btn:hover{
-    background-color:  rgb(255, 174, 0) ;
+    background-color:  rgba(255, 174, 0, 0.644) ;
     color: white;
 }
 .btn-items{
